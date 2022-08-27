@@ -107,13 +107,13 @@ def gerador_de_grupos(estudantes: list, tamanho: int, grupos: list):
 ```
 Finalmente, a cereja do bolo. Aqui podemos criar novos grupos baseados nas funções que já utilizamos anteriormente. 
 
-Primeiro:
+- Primeiro:
 a função pega 3 parâmetros: a lista de estudantes com seus respectivos grupos anteriores, o tamanho que os novos grupos formados devem ter e o último é um save para armazenar os grupos criados.
 
-Segundo:
+- Segundo:
 utilizamos a função 'classificar_grupo' para checar se o grupo é ideal, caso seja, salvamos o grupo para ser mostrado no final da execução. Caso um estudante esteja alocado em um novo grupo, o seu nome será retirado da lista de estudantes para que assim um novo grupo seja gerado (apenas com membros sem grupo até então).
 
-Terceiro:
+- Terceiro:
 verificamos a cada nova formação se o tamanho da lista de estudantes é menor que o tamanho que deve ter em cada novo grupo, se for, será adicionado aos grupos criados a lista de estudantes (o que não é pra ocorrer). Porém, caso esteja tudo funcionando corretamente, a função será chamada novamente no final de cada nova formação.
 
 ### Teste Final: Ciclo 3
