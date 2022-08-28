@@ -4,6 +4,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+
 # 🧮 Análise Combinatória com Python
 Esse programa foi desenvolvido para o teste técnico da etapa de seleção do Apple Academy IFCE.
 
